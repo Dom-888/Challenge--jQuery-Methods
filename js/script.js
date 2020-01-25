@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-// First Challenge
+    // First Challenge
 
     $(".stream-nav").click(function() {
         $(".card").removeClass("card-highlight");
@@ -14,6 +14,10 @@ $(document).ready(function() {
         $(this).children('a').addClass('link-highlight')
     });
 
+    // Third Challenge
 
+    $('img').click(function(){
+        $(this).next().children('p').slideDown();
+    })
 });
 
