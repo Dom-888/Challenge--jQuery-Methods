@@ -1,9 +1,15 @@
-# Contains one Codeinstitute challenges designed to explore jQuery this keyword
+# Contains two Codeinstitute challenges designed to explore jQuery this keyword
 
 <br>
 
-## Challenge
+## First Challenge
 
 Return to your cards page: When a stream is clicked in the nav, that stream’s cards will transition and change background-color. When another stream is clicked, only that stream will transition and change background-color.
 
-![](https://s3-eu-west-1.amazonaws.com/codeinstitute/fullstack/05-interactive-front-end-development/cardsPage.png "")
+<br>
+
+## Second Challenge
+
+Add some links to the card paragraphs that don’t need to go anywhere (href=”#”).
+Add a script that performs the following:
+When a paragraph is clicked, all the links within it are highlighted in yellow.
