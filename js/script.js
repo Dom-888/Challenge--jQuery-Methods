@@ -18,6 +18,7 @@ $(document).ready(function() {
 
     $('img').click(function(){
         $(this).next().children('p').slideDown();
+        $(this).siblings('p').slideDown();
     });
 
     // Forth Challenge
