@@ -142,6 +142,10 @@ li{
     color: yellow;
 }
 
+.makePink {
+    background-color: pink;
+}
+
 /*for desktop navigation*/
 @media screen and (max-width: 700px){
 	ul{

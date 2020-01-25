@@ -18,6 +18,13 @@ $(document).ready(function() {
 
     $('img').click(function(){
         $(this).next().children('p').slideDown();
-    })
+    });
+
+    // Forth Challenge
+
+    $('.card').click(function(){
+        $(this).toggleClass('makePink');
+    });
+
 });
 
