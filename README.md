@@ -1,4 +1,4 @@
-# Contains four Codeinstitute challenges designed to explore jQuery methods
+# Contains five Codeinstitute challenges designed to explore jQuery methods
 
 <br>
 
