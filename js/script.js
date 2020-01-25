@@ -26,5 +26,16 @@ $(document).ready(function() {
         $(this).toggleClass('makePink');
     });
 
+    // Fifth Challenge
+
+    $('#select').click(function(){
+        $(".card:not(.makePink)").css("visibility", "hidden");
+    });
+
+    $('#all').click(function(){
+        $(".card").css("visibility", "visible");
+    });
+
+
 });
 
